@@ -35,6 +35,7 @@ https://bm-oss.oss-cn-hangzhou.aliyuncs.com/x-site/test/public/buildTemplate/eho
 ```
 	
 #### 4、x-site-server  的 这个链接  /mysite/pc/index/1505979404711  做了啥？
+![](./images/4-1.png)
 
 #### 5、看看这里做了啥/Users/yclxiao/Project/bm-x-site/packages/x-site-web-client/assets/apps/prototype  的js渲染的啥？再看看这个编辑页面怎么把模板渲染出来的？
 
