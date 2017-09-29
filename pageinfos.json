@@ -1,0 +1,799 @@
+{
+  "_id" : ObjectId("59c36c4269ff83804f3b3a7a"),
+  "pageCode" : "1505979404711",
+  "pageType" : "index",
+  "platform" : "pc",
+  "siteInfo" : ObjectId("58b6978041b7261d984640f9"),
+  "tplCode" : "ehome-index-demo3",
+  "title" : "清新简约模板",
+  "updateTime" : ISODate("2017-09-21T21:51:02.487+08:00"),
+  "status" : "published",
+  "activated" : true,
+  "configOrder" : {
+    "widgetName" : "HorizontalLayout",
+    "widgetNameSpace" : "x-site-ui-ehome/widget/horizontal-layout",//对应的阿里云组件路径：http://bm-oss.oss-cn-hangzhou.aliyuncs.com/x-site/test/public/barRepo/x-site-ui-ehome/widget/horizontal-layout.js
+    "children" : [//代表这个页面一共由哪些bar组成
+      {
+        "props" : {
+          "tip" : "找护工，找德邻，德邻陪护，全程协助！",
+          "key" : "a2dd99f0-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "children" : [//每个bar下面可能又会有children子节点（表示了每个bar下面的各个块儿）
+          {
+            "props" : {
+              "imgSrc" : "//web-img.qmimg.com/x-site/public/x-site-ui-ehome/statics/images/logo.png@159w_62h_1wh.png",
+              "imgHref" : ""
+            },
+            "widgetName" : "HeadDemo1Logo",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/head-bar/demo1/head-demo1-logo"//widgetNameSpace对应的阿里云组件路径：http://bm-oss.oss-cn-hangzhou.aliyuncs.com/x-site/test/public/barRepo/x-site-ui-ehome/widget-bar/pc/head-bar/demo1/head-demo1-logo.js
+          },
+          {
+            "props" : {
+              "items" : [
+                {
+                  "title" : "首页",
+                  "href" : "/index"
+                },
+                {
+                  "title" : "服务师11",
+                  "href" : "/site/auntlist"
+                },
+                {
+                  "title" : "家政百科",
+                  "href" : ""
+                },
+                {
+                  "title" : "预约下单",
+                  "href" : "/site/order",
+                  "target" : "_self"
+                },
+                {
+                  "title" : "加入我们",
+                  "href" : ""
+                },
+                {
+                  "title" : "公司简介",
+                  "href" : "/site/company"
+                },
+                {
+                  "title" : "月嫂12",
+                  "href" : "/site/order/718",
+                  "target" : "_self"
+                }
+              ]
+            },
+            "children" : [ ],
+            "widgetName" : "HeadDemo1NavUl",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/head-bar/demo1/head-demo1-nav-ul",
+            "__info" : {
+              "props,items,3,href" : {
+                "target" : "_self",
+                "checkState" : false,
+                "type" : "link",
+                "linkKey" : "custom",
+                "info" : {
+                  "content" : "/site/order/"
+                }
+              },
+              "props,items,6,href" : {
+                "target" : "_self",
+                "checkState" : false,
+                "type" : "link",
+                "linkKey" : "serviceTypeList",
+                "info" : {
+                  "id" : 718,
+                  "pid" : 0,
+                  "name" : "月嫂12",
+                  "key" : "718",
+                  "pathName" : "月嫂12",
+                  "children" : [ ],
+                  "isLeaf" : 0,
+                  "NODE_DEEP" : 1
+                }
+              }
+            }
+          },
+          {
+            "props" : {
+              "title" : "全国服务热线",
+              "tel" : "400-631-5858"
+            },
+            "widgetName" : "HeadDemo1Tel",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/head-bar/demo1/head-demo1-tel"
+          }
+        ],
+        "widgetName" : "HeadDemo1Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/head-bar/demo1/head-demo1-bar",
+        "widget" : "HeadDemo1Bar"
+      },
+      {
+        "props" : {
+          "items" : [
+            {
+              "imgSrc" : "//bm-oss.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-ehome/statics/images/slider/banner.jpg",
+              "imgHref" : ""
+            },
+            {
+              "imgSrc" : "//bm-oss.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-ehome/statics/images/slider/banner2.jpg",
+              "imgHref" : ""
+            }
+          ],
+          "key" : "a2dd99f1-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "widgetName" : "SliderDemo1Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/slider-bar/demo1/slider-demo1-bar",
+        "widget" : "SliderDemo1Bar"
+      },
+      {
+        "props" : {
+          "text" : "热门业务",
+          "items" : [
+            {
+              "title" : "临时保洁",
+              "href" : ""
+            },
+            {
+              "title" : "育儿嫂",
+              "href" : ""
+            },
+            {
+              "title" : "钟点工",
+              "href" : ""
+            }
+          ],
+          "key" : "a2dd99f2-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "children" : [ ],
+        "widgetName" : "NoticeDemo1Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/notice-bar/demo1/notice-demo1-bar",
+        "widget" : "NoticeDemo1Bar"
+      },
+      {
+        "props" : {
+          "title" : "我们的精品服务",
+          "subTitle" : "",
+          "subTitleShow" : false,
+          "bgColor" : "#ffffff",
+          "key" : "a2dd99f3-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "widgetName" : "TitleDemo1Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/title-bar/demo1/title-demo1-bar",
+        "widget" : "TitleDemo1Bar",
+        "initPropsFile" : "./bar-init-data/title-demo3-init1.json",
+        "initProps" : {
+          "widget" : "Title_demo1_Bar",
+          "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/title-bar/demo1/title-demo1-bar",
+          "props" : {
+            "title" : "我们的精品服务",
+            "subTitle" : "",
+            "subTitleShow" : false
+          }
+        }
+      },
+      {
+        "props" : {
+          "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/1-c-img.png",
+          "key" : "a2dd99f4-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "children" : [
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/1-l-img1.png",
+              "title" : "育儿嫂",
+              "text" : "亲亲育儿嫂，鱼儿没烦恼",
+              "href" : ""
+            },
+            "children" : [ ],
+            "widgetName" : "ServerDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo1/server-demo1-item"
+          },
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/1-l-img2.png",
+              "title" : "月嫂",
+              "text" : "新妈妈与宝宝的生活照顾和产后护理",
+              "href" : ""
+            },
+            "children" : [ ],
+            "widgetName" : "ServerDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo1/server-demo1-item"
+          },
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/1-l-img3.png",
+              "title" : "保姆",
+              "text" : "爱家如你，值得托付",
+              "href" : ""
+            },
+            "children" : [ ],
+            "widgetName" : "ServerDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo1/server-demo1-item"
+          },
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/1-l-img3.png",
+              "title" : "日常宝洁",
+              "text" : "家清净，人舒心",
+              "href" : ""
+            },
+            "children" : [ ],
+            "widgetName" : "ServerDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo1/server-demo1-item"
+          },
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/1-l-img3.png",
+              "title" : "深度保洁",
+              "text" : "从干净到卫生的提升",
+              "href" : ""
+            },
+            "children" : [ ],
+            "widgetName" : "ServerDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo1/server-demo1-item"
+          },
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/1-l-img3.png",
+              "title" : "开荒保洁",
+              "text" : "全新舒适，伶包入住",
+              "href" : ""
+            },
+            "children" : [ ],
+            "widgetName" : "ServerDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo1/server-demo1-item"
+          }
+        ],
+        "widgetName" : "ServerDemo1Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo1/server-demo1-bar",
+        "widget" : "ServerDemo1Bar"
+      },
+      {
+        "props" : {
+          "title" : "我们的金牌服务师",
+          "subTitle" : "",
+          "subTitleShow" : false,
+          "bgColor" : "#f2f4f6",
+          "key" : "a2dd99f5-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "widgetName" : "TitleDemo1Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/title-bar/demo1/title-demo1-bar",
+        "widget" : "TitleDemo1Bar",
+        "initPropsFile" : "./bar-init-data/title-demo3-init2.json",
+        "initProps" : {
+          "widget" : "Title_demo1_Bar",
+          "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/title-bar/demo1/title-demo1-bar",
+          "props" : {
+            "title" : "我们的金牌服务师",
+            "subTitle" : "",
+            "subTitleShow" : false,
+            "bgColor" : "#f2f4f6"
+          }
+        }
+      },
+      {
+        "props" : {
+          "key" : "a2dd99f6-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "children" : [
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/2-img1.png",
+              "auntName" : "苏阿姨",
+              "auntTag1" : "身份证",
+              "auntTag2" : "健康证",
+              "auntTag3" : "已培训",
+              "auntTag4" : "已付费",
+              "auntEval" : "“阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半，阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半”"
+            },
+            "children" : [ ],
+            "widgetName" : "CommentDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/comment-bar/demo1/comment-demo1-item"
+          },
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/2-img2.png",
+              "auntName" : "刘师傅",
+              "auntTag1" : "身份证",
+              "auntTag2" : "健康证",
+              "auntTag3" : "已培训",
+              "auntTag4" : "已付费",
+              "auntEval" : "“阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半，阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半”"
+            },
+            "children" : [ ],
+            "widgetName" : "CommentDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/comment-bar/demo1/comment-demo1-item"
+          },
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/2-img3.png",
+              "auntName" : "王阿姨",
+              "auntTag1" : "身份证",
+              "auntTag2" : "健康证",
+              "auntTag3" : "已培训",
+              "auntTag4" : "已付费",
+              "auntEval" : "“阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半，阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半”"
+            },
+            "children" : [ ],
+            "widgetName" : "CommentDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/comment-bar/demo1/comment-demo1-item"
+          },
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/2-img1.png",
+              "auntName" : "苏阿姨",
+              "auntTag1" : "身份证",
+              "auntTag2" : "健康证",
+              "auntTag3" : "已培训",
+              "auntTag4" : "已付费",
+              "auntEval" : "“阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半，阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半”"
+            },
+            "children" : [ ],
+            "widgetName" : "CommentDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/comment-bar/demo1/comment-demo1-item"
+          },
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/2-img2.png",
+              "auntName" : "刘师傅",
+              "auntTag1" : "身份证",
+              "auntTag2" : "健康证",
+              "auntTag3" : "已培训",
+              "auntTag4" : "已付费",
+              "auntEval" : "“阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半，阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半”"
+            },
+            "children" : [ ],
+            "widgetName" : "CommentDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/comment-bar/demo1/comment-demo1-item"
+          },
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/2-img3.png",
+              "auntName" : "王阿姨",
+              "auntTag1" : "身份证",
+              "auntTag2" : "健康证",
+              "auntTag3" : "已培训",
+              "auntTag4" : "已付费",
+              "auntEval" : "“阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半，阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半”"
+            },
+            "children" : [ ],
+            "widgetName" : "CommentDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/comment-bar/demo1/comment-demo1-item"
+          },
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/2-img1.png",
+              "auntName" : "苏阿姨",
+              "auntTag1" : "身份证",
+              "auntTag2" : "健康证",
+              "auntTag3" : "已培训",
+              "auntTag4" : "已付费",
+              "auntEval" : "“阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半，阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半”"
+            },
+            "children" : [ ],
+            "widgetName" : "CommentDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/comment-bar/demo1/comment-demo1-item"
+          },
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/2-img2.png",
+              "auntName" : "刘师傅",
+              "auntTag1" : "身份证",
+              "auntTag2" : "健康证",
+              "auntTag3" : "已培训",
+              "auntTag4" : "已付费",
+              "auntEval" : "“阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半，阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半”"
+            },
+            "children" : [ ],
+            "widgetName" : "CommentDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/comment-bar/demo1/comment-demo1-item"
+          },
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/2-img3.png",
+              "auntName" : "王阿姨",
+              "auntTag1" : "身份证",
+              "auntTag2" : "健康证",
+              "auntTag3" : "已培训",
+              "auntTag4" : "已付费",
+              "auntEval" : "“阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半，阿姨 做事认真 带孩子也挺负责 个方面都还可以 给个4星半”"
+            },
+            "children" : [ ],
+            "widgetName" : "CommentDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/comment-bar/demo1/comment-demo1-item"
+          }
+        ],
+        "widgetName" : "CommentDemo1Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/comment-bar/demo1/comment-demo1-bar",
+        "widget" : "CommentDemo1Bar"
+      },
+      {
+        "props" : {
+          "bgImg" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/3-bg.jpg",
+          "key" : "a2dd99f7-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "children" : [
+          {
+            "props" : {
+              "index" : 1,
+              "imgSrc" : "//bm-oss.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-ehome/statics/pc-ehome-index/demo3/pc-demo3-tt-1.png",
+              "title" : "品质保障",
+              "text" : "服务人员全部经过严格的学习、培训，合格者上岗并对服务客户定期回访"
+            },
+            "widgetName" : "ServerDemo6Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo6/server-demo6-item"
+          },
+          {
+            "props" : {
+              "index" : 2,
+              "imgSrc" : "//bm-oss.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-ehome/statics/pc-ehome-index/demo3/pc-demo3-tt-4.png",
+              "title" : "身份认证",
+              "text" : "服务人员全部通过严格的身份认证，及指纹备案"
+            },
+            "widgetName" : "ServerDemo6Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo6/server-demo6-item"
+          },
+          {
+            "props" : {
+              "index" : 3,
+              "imgSrc" : "//bm-oss.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-ehome/statics/pc-ehome-index/demo3/pc-demo3-tt-3.png",
+              "title" : "自助选择",
+              "text" : "百万新老服务人员任你选择，喜欢哪个就用哪个"
+            },
+            "widgetName" : "ServerDemo6Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo6/server-demo6-item"
+          },
+          {
+            "props" : {
+              "index" : 4,
+              "imgSrc" : "//bm-oss.oss-cn-hangzhou.aliyuncs.com/x-site/public/x-site-ui-ehome/statics/pc-ehome-index/demo3/pc-demo3-tt-2.png",
+              "title" : "违约赔付",
+              "text" : "服务人员全未上门服务爽约者，我们将提供全额赔付"
+            },
+            "widgetName" : "ServerDemo6Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo6/server-demo6-item"
+          }
+        ],
+        "widgetName" : "ServerDemo6Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo6/server-demo6-bar",
+        "widget" : "ServerDemo6Bar"
+      },
+      {
+        "props" : {
+          "key" : "a2dd99f8-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "children" : [
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/4-img1.jpg",
+              "text1" : "我们在24小时内提供免费更换服务师的权益，三个免费的更换服务师，提供规范的服务范本，半年内无限次换人，业内行情查询与阿姨工资管理。",
+              "text2" : "服务师准时上工，按时按点的上工服务,服务师准时上工，按时按点的上工服务,",
+              "text3" : "帮助雇主进行解约续约，受理雇主投诉，进行纠纷调解，保护雇主隐私与权益。",
+              "icon1" : "x-site-new-qIcon ehome-24hour",
+              "title1" : "对雇主的保障",
+              "icon2" : "x-site-new-qIcon ehome-time",
+              "title2" : "Production of Employers",
+              "icon3" : "x-site-new-qIcon ehome-heyue"
+            },
+            "widgetName" : "ServerDemo3Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo3/server-demo3-item"
+          },
+          {
+            "props" : {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/4-img2.jpg",
+              "text1" : "我们在24小时内提供免费更换服务师的权益，三个免费的更换服务师，提供规范的服务范本，半年内无限次换人，业内行情查询与阿姨工资管理。",
+              "text2" : "服务师准时上工，按时按点的上工服务,服务师准时上工，按时按点的上工服务,",
+              "text3" : "帮助雇主进行解约续约，受理雇主投诉，进行纠纷调解，保护雇主隐私与权益。",
+              "icon1" : "x-site-new-qIcon ehome-tip",
+              "title1" : "对服务师的保障",
+              "icon2" : "x-site-new-qIcon ehome-anquan",
+              "title2" : "Production of Service technician",
+              "icon3" : "x-site-new-qIcon ehome-che"
+            },
+            "widgetName" : "ServerDemo3Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo3/server-demo3-item"
+          }
+        ],
+        "widgetName" : "ServerDemo3Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo3/server-demo3-bar",
+        "widget" : "ServerDemo3Bar"
+      },
+      {
+        "props" : {
+          "title" : "媒体资讯",
+          "subTitle" : "",
+          "subTitleShow" : false,
+          "bgColor" : "#f5f8ff",
+          "key" : "a2dd99f9-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "widgetName" : "TitleDemo1Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/title-bar/demo1/title-demo1-bar",
+        "widget" : "TitleDemo1Bar",
+        "initPropsFile" : "./bar-init-data/title-demo3-init3.json",
+        "initProps" : {
+          "widget" : "Title_demo1_Bar",
+          "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/title-bar/demo1/title-demo1-bar",
+          "props" : {
+            "title" : "媒体资讯",
+            "subTitle" : "",
+            "subTitleShow" : false,
+            "bgColor" : "#f5f8ff"
+          }
+        }
+      },
+      {
+        "props" : {
+          "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/5-img.png",
+          "key" : "a2dd99fa-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "children" : [
+          {
+            "props" : {
+              "items" : [
+                {
+                  "title" : "“互联网+母婴”未来发展的五大方向",
+                  "href" : "",
+                  "text" : "中国电子商务研究中心讯)近年来随着婴儿潮的来临，母婴市场成为了电商领域具有商机的又一细分领域。"
+                },
+                {
+                  "title" : "“互联网+母婴”未来发展的五大方向",
+                  "href" : "",
+                  "text" : "中国电子商务研究中心讯)近年来随着婴儿潮的来临，母婴市场成为了电商领域具有商机的又一细分领域。"
+                },
+                {
+                  "title" : "“互联网+母婴”未来发展的五大方向",
+                  "href" : "",
+                  "text" : "中国电子商务研究中心讯)近年来随着婴儿潮的来临，母婴市场成为了电商领域具有商机的又一细分领域。"
+                },
+                {
+                  "title" : "“互联网+母婴”未来发展的五大方向",
+                  "href" : "",
+                  "text" : "中国电子商务研究中心讯)近年来随着婴儿潮的来临，母婴市场成为了电商领域具有商机的又一细分领域。"
+                }
+              ]
+            },
+            "children" : [ ],
+            "widgetName" : "ServerDemo4Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo4/server-demo4-item"
+          }
+        ],
+        "widgetName" : "ServerDemo4Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/server-bar/demo4/server-demo4-bar",
+        "widget" : "ServerDemo4Bar"
+      },
+      {
+        "props" : {
+          "title" : "成长事迹",
+          "subTitle" : "",
+          "subTitleShow" : false,
+          "bgColor" : "#ffffff",
+          "key" : "a2dd99fb-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "widgetName" : "TitleDemo1Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/title-bar/demo1/title-demo1-bar",
+        "widget" : "TitleDemo1Bar",
+        "initPropsFile" : "./bar-init-data/title-demo3-init4.json",
+        "initProps" : {
+          "widget" : "Title_demo1_Bar",
+          "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/title-bar/demo1/title-demo1-bar",
+          "props" : {
+            "title" : "成长事迹",
+            "subTitle" : "",
+            "subTitleShow" : false
+          }
+        }
+      },
+      {
+        "props" : {
+          "items" : [
+            {
+              "title" : "2016-07-29",
+              "text" : "巧阿嫂成立于xxx年xxx月"
+            },
+            {
+              "title" : "2016-07-29",
+              "text" : "巧阿嫂成立于xxx年xxx月"
+            },
+            {
+              "title" : "2016-07-29",
+              "text" : "巧阿嫂成立于xxx年xxx月"
+            },
+            {
+              "title" : "2016-07-29",
+              "text" : "巧阿嫂成立于xxx年xxx月"
+            },
+            {
+              "title" : "2016-07-29",
+              "text" : "巧阿嫂成立于xxx年xxx月"
+            }
+          ],
+          "key" : "a2dd99fc-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "children" : [ ],
+        "widgetName" : "TimeDemo1Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/time-bar/demo1/time-demo1-bar",
+        "widget" : "TimeDemo1Bar"
+      },
+      {
+        "props" : {
+          "title" : "合作对象",
+          "subTitle" : "",
+          "subTitleShow" : false,
+          "bgColor" : "#ffffff",
+          "key" : "a2dd99fd-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "widgetName" : "TitleDemo1Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/title-bar/demo1/title-demo1-bar",
+        "widget" : "TitleDemo1Bar",
+        "initPropsFile" : "./bar-init-data/title-demo3-init5.json",
+        "initProps" : {
+          "widget" : "Title_demo1_Bar",
+          "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/title-bar/demo1/title-demo1-bar",
+          "props" : {
+            "title" : "合作对象",
+            "subTitle" : "",
+            "subTitleShow" : false
+          }
+        }
+      },
+      {
+        "props" : {
+          "items" : [
+            {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/coop-img1.png",
+              "imgHref" : "#"
+            },
+            {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/coop-img1.png",
+              "imgHref" : "#"
+            },
+            {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/coop-img1.png",
+              "imgHref" : "#"
+            },
+            {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/coop-img1.png",
+              "imgHref" : "#"
+            },
+            {
+              "imgSrc" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/index/coop-img1.png",
+              "imgHref" : "#"
+            }
+          ],
+          "key" : "a2dd99fe-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "widgetName" : "CoopDemo1Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/coop-bar/demo1/coop-demo1-bar",
+        "widget" : "CoopDemo1Bar"
+      },
+      {
+        "props" : {
+          "items" : [
+            {
+              "title" : "加入我们",
+              "href" : ""
+            },
+            {
+              "title" : "关于我们",
+              "href" : ""
+            },
+            {
+              "title" : "网站地图",
+              "href" : ""
+            },
+            {
+              "title" : "媒体报道",
+              "href" : ""
+            }
+          ],
+          "key" : "a2ddc100-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "children" : [
+          {
+            "props" : {
+              "imgSrc1" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/f-logo.png",
+              "text1" : "www.weihuofuwu.com";;,
+              "imageLinkPath" : ""
+            },
+            "widgetName" : "FootDemo1Top",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/foot-bar/demo1/foot-demo1-top"
+          },
+          {
+            "props" : {
+              "item1" : {
+                "itemKey" : "售前服务",
+                "itemName" : "400-1840-001"
+              },
+              "item2" : {
+                "itemKey" : "QQ",
+                "itemName" : "2853573559"
+              },
+              "item3" : {
+                "itemKey" : "地址",
+                "itemName" : "江苏省南京市雨花台区软件大道118号新华汇"
+              },
+              "item4" : {
+                "text" : "©Copyright 2016. 版权所有|苏ICP备15008925号-1",
+                "link" : ""
+              }
+            },
+            "children" : [ ],
+            "widgetName" : "FootDemo1Info",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/foot-bar/demo1/foot-demo1-info"
+          },
+          {
+            "props" : {
+              "imgSrc1" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/f-code1.jpg",
+              "text1" : "APP下载",
+              "imgSrc2" : "//pic.qianmi.com/ejz/ejz_web/jz3/images/f-code2.jpg",
+              "text2" : "微火店铺"
+            },
+            "children" : [ ],
+            "widgetName" : "FootDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/foot-bar/demo1/foot-demo1-item"
+          }
+        ],
+        "widgetName" : "FootDemo1Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/foot-bar/demo1/foot-demo1-bar",
+        "widget" : "FootDemo1Bar"
+      },
+      {
+        "props" : {
+          "icon" : "x-site-new-qIcon ehome-qq",
+          "title" : "QQ咨询",
+          "items" : [
+            {
+              "title" : "2853573559",
+              "href" : ""
+            },
+            {
+              "title" : "2853573559",
+              "href" : ""
+            }
+          ],
+          "key" : "a2ddc101-9e9f-11e7-adf2-53bf4f5bdf02"
+        },
+        "children" : [
+          {
+            "props" : {
+              "icon" : "x-site-new-qIcon ehome-phone",
+              "title" : "app下载"
+            },
+            "children" : [
+              {
+                "props" : {
+                  "ImgSrc" : "//pic.qianmi.com/ejz/ejz_web/images/index/app.png"
+                },
+                "widgetName" : "FloatDemo1ItemImg",
+                "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/float-bar/demo1/float-demo1-item-img"
+              }
+            ],
+            "widgetName" : "FloatDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/float-bar/demo1/float-demo1-item"
+          },
+          {
+            "props" : {
+              "icon" : "x-site-new-qIcon ehome-weixin",
+              "title" : "关注微信"
+            },
+            "children" : [
+              {
+                "props" : {
+                  "ImgSrc" : "//pic.qianmi.com/ejz/ejz_web/images/index/weitao.png"
+                },
+                "widgetName" : "FloatDemo1ItemImg",
+                "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/float-bar/demo1/float-demo1-item-img"
+              }
+            ],
+            "widgetName" : "FloatDemo1Item",
+            "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/float-bar/demo1/float-demo1-item"
+          }
+        ],
+        "widgetName" : "FloatDemo1Bar",
+        "widgetNameSpace" : "x-site-ui-ehome/widget-bar/pc/float-bar/demo1/float-demo1-bar",
+        "widget" : "FloatDemo1Bar"
+      }
+    ]
+  },
+  "pageStyle" : "style_body0",
+  "__v" : 0
+}

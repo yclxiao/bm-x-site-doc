@@ -25,8 +25,21 @@ x-site-ui
 ## *问题说明*
 
 #### 1、模板 x-site-ui-home
+window.xSiteIntegrate  此对象
+
+__XSite_widgetInject
+
+模板的组件分为  qmBar     qmGroup
+
 
 #### 2、主要信息存放位置
+
+用户编辑的模板对应的数据在库里pageinfos
+
+对应的生成的文件位置在：http://bm-oss.oss-cn-hangzhou.aliyuncs.com/x-site/test/public/barRepo/x-site-ui-ehome，x-site-ui-ehome：代表每个业务线的工程名字
+
+[某个用户编辑的内容](./pageinfos)
+
 
 #### 3、[这段js作用](https://bm-oss.oss-cn-hangzhou.aliyuncs.com/x-site/test/public/buildTemplate/ehome-index-demo3.js)
 
